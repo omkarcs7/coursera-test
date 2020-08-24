@@ -3,6 +3,8 @@
 }
 
 body{
+	position: relative;
+	top: 100px;
 	text-align: center;
 }
 
@@ -14,22 +16,69 @@ h1{
 
 body>div {
 	position: relative;
-	top: 200px;
-	width: 480px;
+	top: 100px;
+	width: 90%;
 }
 
 #chicken {
 	font-size: 24px;
-	background: maroon;
+	background: gray;
+	width: 30%;
+	float: right;
+	padding: 0px 10px;
+	margin: 15px;
+	border: solid thin;
+
+
 }
 
 #fish {
 	font-size: 24px;
-	background: teal;
+	background: gray;
+	width: 30%;
+	float: right;
+	margin: 15px;
+	padding: 0px 10px;
+	border: solid thin;
 }
 
 #eggs {
 	font-size: 24px;
+	background: gray;
+	width: 30%;
+	margin: 15px;
+	float: right;
+	padding: 0px 10px;
+	border: solid thin;	
+}
+
+#fish>div {
+	border: solid thin;
+	text-align: right;
+	position: absolute;
+	padding: 5px;
+	right: 0.9%;
+	width: 150px;
+	background: turquoise;
+}
+
+#chicken>div {
+	text-align: right;
+	border: solid black thin;
+	padding: 5px;
+	position: absolute;
+	right: 32.60%;
+	width: 150px;
+	background: maroon;
+	color: white;
+}
+
+#eggs>div {
+	text-align: right;
+	border: solid black thin;
+	padding: 5px;
+	width: 150px;
 	background: coral;
-	
+	position: absolute;
+	left: 26.80%;
 }
