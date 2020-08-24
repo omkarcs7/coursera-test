@@ -1,3 +1,35 @@
+*{
+	box-sizing: border-box;
+}
+
 body{
-	background: gray;
+	text-align: center;
+}
+
+h1{
+	position: relative;
+	top: 100px;
+	font-size: 38px;
+}
+
+body>div {
+	position: relative;
+	top: 200px;
+	width: 480px;
+}
+
+#chicken {
+	font-size: 24px;
+	background: maroon;
+}
+
+#fish {
+	font-size: 24px;
+	background: teal;
+}
+
+#eggs {
+	font-size: 24px;
+	background: coral;
+	
 }
