@@ -3,9 +3,11 @@
 }
 
 body{
-	position: relative;
-	top: 100px;
+
 	text-align: center;
+
+
+	
 }
 
 h1{
@@ -13,11 +15,15 @@ h1{
 }
 
 body>div {
-	position: relative;
-	top: 100px;
-	width: 90%;
+		position: absolute;
+		right: 8.33%;
+		text-align: justify;
+
 }
 
+p{
+	padding: 10px;
+}
 
 
 /*For Desktop*/
@@ -27,8 +33,8 @@ body>div {
 	font-size: 22px;
 	background: gray;
 	width: 30%;
-	float: right;
-	margin: 15px;
+	float: right;	
+	
 	border: solid thin;
 
 
@@ -39,17 +45,17 @@ body>div {
 	background: gray;
 	width: 30%;
 	float: right;
-	margin: 15px;
+	margin-left: 20px;		
 	border: solid thin;
 }
 
 #eggs {
 	font-size: 22px;
 	background: gray;
-	width: 30%;
-	margin: 15px;
+	width: 30%;	
+	border: solid thin;
 	float: right;
-	border: solid thin;	
+	margin-right: 20px;
 }
 
 #fish>div {
@@ -86,6 +92,11 @@ body>div {
 
 @media (min-width:768px) and (max-width: 991px)
 {
+
+body>div {
+	
+}
+
 #chicken {
 	font-size: 22px;
 	background: gray;
@@ -93,7 +104,7 @@ body>div {
 	float: right;
 	position: absolute;
 	right: 0%;
-	margin: 0px 0px 0px 5px;	
+		
 	border: solid thin;
 }
 
@@ -103,9 +114,9 @@ body>div {
 	width: 90%;
 	float: right;	
 	border: solid thin;
-	clear: both;
 	position: relative;
-	top: 385px;	
+	top: 430px;
+
 }
 
 #eggs {
@@ -116,7 +127,7 @@ body>div {
 	border: solid thin;
 	position: absolute;
 	left: 10%;
-	margin: 0px 5px 0px 0px;
+	
 }
 
 #fish>div {
@@ -159,6 +170,10 @@ body>div {
 	width: 90%;
 	float: right;
 	border: solid thin;
+	position: absolute;
+	top: 100%;
+	left: 8.33%;
+	margin-top: 20px;
 
 
 }
@@ -169,14 +184,22 @@ body>div {
 	width: 90%;
 	float: right;
 	border: solid thin;
+	position: absolute;
+	top: 200%;
+	left: 8.33%;
+	margin-top: 40px;
 }
 
 #eggs {
 	font-size: 22px;
 	background: gray;
 	width: 90%;
-	float: right;
-	border: solid thin;	
+	float: left;
+	border: solid thin;
+	position: relative;
+	left: 8.33%;
+	
+		
 }
 
 #fish>div {
